@@ -1,6 +1,14 @@
-# sv
+## My Project
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Titel : SVELTE_HERA
+
+My easy project includes typing in an inptut field. What you type will be shown on top. 
+
+Programming language : JavaScript 
+Author : Hera Valikaj
+
+
+
 
 ## Creating a project
 

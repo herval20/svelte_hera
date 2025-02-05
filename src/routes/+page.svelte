@@ -5,13 +5,17 @@ let greeting = $state("Hello");
 
 </script>
 
-
+<!--A header is created. It is at the top of the website-->
 <header>This is a header</header>
-<div>
 
+<!--This div includes one h1, h2 , input and footer, which all create the structrure of the page-->
+
+<div> 
+   
     <h1>{greeting}</h1>
-    <h2 glow> What do you want to write </h2>
+    <h2> What do you want to write </h2>
 
+    <!-- What we write on the input type, will be showed in the h1 area-->
     <input type ="text" bind:value={greeting}>
 
 
@@ -24,7 +28,8 @@ let greeting = $state("Hello");
 </div>
 <style>
 
-
+ 
+    /* Easy styled header with a lightblue color */
     header{
 
      
@@ -43,6 +48,7 @@ let greeting = $state("Hello");
 
     }
 
+    /* The same goes with footer */
     footer{
 
      
@@ -65,6 +71,7 @@ justify-content: center;
 
 }
 
+/* Both h1 and h2 are styled at the same block of code */
 h1,h2{ 
     display: grid;
 justify-content: center;
