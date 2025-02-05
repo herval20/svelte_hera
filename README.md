@@ -2,12 +2,19 @@
 
 Titel : SVELTE_HERA
 
-My easy project includes typing in an inptut field. What you type will be shown on top. 
+My easy project includes typing in an input field. What you type will be shown on top. 
 
 Programming language : JavaScript 
 Author : Hera Valikaj
 
 
+
+## Installation 
+Follow these steps: 
+
+1) git clone
+2) npm install
+3) npm run dev
 
 
 ## Creating a project
